@@ -14,6 +14,10 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        // $images = [
+        //     'https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        //     'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fuser&psig=AOvVaw3zX1N_sijO5zdnKlbklwaK&ust=1643279901980000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjq0-icz_UCFQAAAAAdAAAAABAD'
+        // ];
         return [
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
